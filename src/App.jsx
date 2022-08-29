@@ -5,6 +5,8 @@ import { Routes, Route, useLocation, useNavigate} from "react-router-dom";
 import { useCallback, useEffect, useState } from "react";
 import { Api } from "../src/Components/URL/API";
 import { context } from "./context";
+import  'bootstrap/dist/css/bootstrap.min.css' ;
+import  'bootstrap/dist/js/bootstrap.min.js' ;
 
 function App() {
   const navigate = useNavigate();
