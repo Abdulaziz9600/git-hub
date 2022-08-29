@@ -22,7 +22,7 @@ const Home = () => {
             </div>
             <div className="col-7">
               <Routes>
-                <Route path="/" element={<PinnedRepos />} />
+                <Route path="/home" element={<PinnedRepos />} />
                 <Route path="/repos" element={<Repos />} />
                 <Route path={'/followers'} element={<Followers/>}/>
               </Routes>

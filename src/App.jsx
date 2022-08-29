@@ -18,8 +18,8 @@ function App() {
   const uselogin = (params) => {
     return users.username === params.username &&
       users.password === params.password
-      ? navigate("/")
-      : navigate("/home");
+      ? navigate("/home")
+      : navigate("/");
   };
 
   const { getUser, getRepo, getFollowers,getFollowing,getUsers } = Api;
@@ -84,7 +84,7 @@ function App() {
           <Route path="/log" element={}/>
           <Route path="/" element={} />
         </Routes> */}
-        {pathname === "/log" ? (
+        {pathname === "/" ? (
           <Login uselogin={uselogin} />
            
           ) : (
