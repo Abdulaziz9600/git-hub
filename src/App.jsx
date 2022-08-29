@@ -19,7 +19,7 @@ function App() {
     return users.username === params.username &&
       users.password === params.password
       ? navigate("/")
-      : navigate("/log");
+      : navigate("/home");
   };
 
   const { getUser, getRepo, getFollowers,getFollowing,getUsers } = Api;

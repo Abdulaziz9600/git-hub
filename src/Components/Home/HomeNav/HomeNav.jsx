@@ -12,7 +12,7 @@ const HomeNav = () => {
      <div className="home-nav border-bottom position-sticky w-100 pt-2 bg-white">
         <ul className="home-list list-unstyled d-flex justify-content-between justify-content-md-center gap-2 px-2">
           <li className="list-item p-1 rounded-3">
-            <NavLink className="item-link text-decoration-none text-dark d-flex align-items-center gap-2" to="/">
+            <NavLink className="item-link text-decoration-none text-dark d-flex align-items-center gap-2" to="/home">
               <i class="bi bi-book"></i>
               Overwiev
             </NavLink>
