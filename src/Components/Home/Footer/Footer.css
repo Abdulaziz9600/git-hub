@@ -1,0 +1,28 @@
+.bi-github {
+  color: #24292f87;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #6e7681;
+}
+
+.footer-nav-link {
+  font-size: 12px;
+  color: #56a2fa !important;
+}
+
+.footer-nav-item:hover .footer-nav-link {
+  text-decoration: underline !important;
+}
+
+.foot {
+  border-top: 2px solid;
+  margin-top: 80px;
+}
+
+.img-img {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+}
